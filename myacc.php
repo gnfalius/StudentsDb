@@ -14,7 +14,7 @@ $secondName=$studDb->yourInfo('secondName',$insertId);
 $group=$studDb->yourInfo('gruppa',$insertId);
 $score=$studDb->yourInfo('score',$insertId);
 ?>
-<h2>Часик в радость, чифир в сладость, <?php echo $name['studentName'] ?></h2>
+<h2>Часик в радость, <?php echo $name['studentName'] ?></h2>
 <ul>
 <li> Фамилия: <?php echo $secondName['secondName']?> </li>
 <li> Группа: <?php echo $group['gruppa'] ?> </li>
